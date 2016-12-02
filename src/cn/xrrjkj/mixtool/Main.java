@@ -5,8 +5,19 @@ package cn.xrrjkj.mixtool;
  */
 public class Main {
     public static void main(String[] args) throws Exception {
-        MixDomTool mixDomTool = new MixDomTool();
+//        String intent = "E:\\ibaby\\data\\intent.txt";
+//        String sample = "E:\\ibaby\\data\\sample.txt";
+//        String dictionary = "E:\\ibaby\\data\\dictionary.txt";
+//        String output = "E:\\ibaby\\data\\output.trax.xml";
+//
+//        MixDomTool mixDomTool = new MixDomTool();
+//        mixDomTool.setPathDictionary(dictionary);
+//        mixDomTool.setPathIntent(intent);
+//        mixDomTool.setPathSample(sample);
+//        mixDomTool.setPathOutput(output);
+//        mixDomTool.start();
 
+        MixDomTool mixDomTool = new MixDomTool();
         if(mixDomTool.isValidParams(args)) {
             mixDomTool.start();
         }

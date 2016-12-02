@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Ibaby_generate_tools_java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ibaby_generate_tools_java_jar</output-path>
+    <root id="archive" name="Ibaby_generate_tools_java.jar">
+      <element id="module-output" name="Ibaby_generate_tools_java" />
+    </root>
+  </artifact>
+</component>

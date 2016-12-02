@@ -53,11 +53,30 @@ public class MixDomTool {
     public static final String NODE_RELATIONS = "relations";
     public static final String NODE_RELATION = "relation";
     public static final String NODE_FREE_TEXT = "freetext";
+    public static final String NODE_TYPE = "type";
 
     public static final String TEXT_NUANCE_VERSION = "2.0";
     public static final String TEXT_XMLNS_NUANCE = "https://developer.nuance.com/mix/nlu/trsx";
     public static final String TEXT_XML_LANG = "en-us";
     public static final String TEXT_BASE = "http://developer.nuance.com/mix/nlu/trsx/ontology-1.0";
+
+    public static final List<String> NUANCE_CONCEPTS = new ArrayList<String >(
+            Arrays.asList(new String[]{
+                    "nuance_AMOUNT",
+                    "nuance_BOOLEAN",
+                    "nuance_CALENDARX",
+                    "nuance_CARDINAL_NUMBER",
+                    "nuance_DOUBLE",
+                    "nuance_DURATION",
+                    "nuance_DURATION_RANGE",
+                    "nuance_GENERIC_ORDER",
+                    "nuance_GLOBAL",
+                    "nuance_NUMBER",
+                    "nuance_ORDINAL_NUMBER",
+                    "nuance_QUANTITY",
+                    "nuance_TEMPERATURE"
+            })
+    ) ;
 
     boolean isValidParams(String[] args) {
         if(null == args) {
@@ -123,6 +142,22 @@ public class MixDomTool {
     private String pathDictionary;
     private String pathSample;
     private String pathOutput;
+
+    public void setPathIntent(String pathIntent) {
+        this.pathIntent = pathIntent;
+    }
+
+    public void setPathDictionary(String pathDictionary) {
+        this.pathDictionary = pathDictionary;
+    }
+
+    public void setPathSample(String pathSample) {
+        this.pathSample = pathSample;
+    }
+
+    public void setPathOutput(String pathOutput) {
+        this.pathOutput = pathOutput;
+    }
 
     void start() throws Exception {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-dd-MM:hh:mm:sss");
@@ -292,6 +327,11 @@ public class MixDomTool {
 
         Element tmpConcept = null;
         for(String ss : conceptsList) {
+            // ignore inner nuance_* concept
+            if(null != ss && NUANCE_CONCEPTS.contains(ss)) {
+                continue;
+            }
+
             tmpConcept = appendConcept(ss);
             if(null != tmpConcept) {
                 concepts.appendChild(tmpConcept);
@@ -391,13 +431,25 @@ public class MixDomTool {
         if(null != tmpStrs && tmpStrs.length > 0) {
             int i;
 
-            for(i = 0;i < tmpStrs.length;i ++) {
-                tmpElement = document.createElement(settings ? NODE_SETTING : NODE_RELATION);
-                tmpSubItems = tmpStrs[i].split("=");
-                if(null != tmpSubItems && tmpSubItems.length == 2) {
-                    tmpElement.setAttribute(NODE_NAME,tmpSubItems[0]);
-                    tmpElement.setAttribute(NODE_VALUE,tmpSubItems[1]);
-                    parent.appendChild(tmpElement);
+            if(settings) {
+                for(i = 0;i < tmpStrs.length;i ++) {
+                    tmpElement = document.createElement(NODE_SETTING);
+                    tmpSubItems = tmpStrs[i].split("=");
+                    if(null != tmpSubItems && tmpSubItems.length == 2) {
+                        tmpElement.setAttribute(NODE_NAME,tmpSubItems[0]);
+                        tmpElement.setAttribute(NODE_VALUE,tmpSubItems[1]);
+                        parent.appendChild(tmpElement);
+                    }
+                }
+            } else {
+                for(i = 0;i < tmpStrs.length;i ++) {
+                    tmpElement = document.createElement(NODE_RELATION);
+                    tmpSubItems = tmpStrs[i].split("=");
+                    if(null != tmpSubItems && tmpSubItems.length == 2) {
+                        tmpElement.setAttribute(NODE_TYPE,tmpSubItems[0]);
+                        tmpElement.setAttribute(NODE_CONCEPT_REF,tmpSubItems[1]);
+                        parent.appendChild(tmpElement);
+                    }
                 }
             }
         }
@@ -465,6 +517,9 @@ public class MixDomTool {
             if(line.startsWith("//")) {
                 continue;
             }
+            if(line.isEmpty()) {
+                continue;
+            }
             lines.add(line.trim().replaceAll("###",NODE_CONCEPT_REF).replaceAll("##",NODE_ANNOTATION));
         }
         br.close();
@@ -474,6 +529,10 @@ public class MixDomTool {
         String tmpIntentRef = "";
         Element tmpSample = null;
         for(String s : lines) {
+            if(s.isEmpty()) {
+                continue;
+            }
+
             if(s.startsWith("#")) {
                 tmpSample = appendSample(tmpIntentRef,s.replaceFirst("#",""));
                 if(null != tmpIntentRef) {
@@ -517,8 +576,8 @@ public class MixDomTool {
 
         if(name.contains("#")) {
             String[] tmp = name.split("#");
-            literal = tmp[0];
-            value = tmp[1];
+            literal = tmp[0].trim();
+            value = tmp[1].trim();
         }
 
         Element entries = document.createElement(NODE_ENTRY);
