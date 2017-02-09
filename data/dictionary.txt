@@ -1,0 +1,876 @@
+
+ibaby_DEVICE_OPERATE
+#close#close
+#down#down
+#open#open
+#turn off#close
+#turn on#open
+#up#up
+#What is#ask
+
+ibaby_DEVICE_TYPE
+#air condition#air_condition
+#air-condition#air_condition
+#heater#heater
+#humidity#humidity
+
+ibaby_DEVICE_TYPE_QUERY
+#air quality#voc
+#humidity#humidity
+#temperature#air_condition
+
+// hasA=ibaby_DEVICE_TYPE_QUERY
+//ibaby_DEVICE_TYPE_QUERY_MUCH
+
+// isA=nuance_CALENDARX
+//ibaby_EVENT_TIME
+
+// hasA=ibaby_TIME_POINT,hasA=nuance_CALENDARX
+//ibaby_EVENT_TIME_REMIND
+
+
+ibaby_EVENT_TODO
+
+ibaby_GET_NAME
+
+ibaby_EVENT_WHO_TODO
+
+
+ibaby_GUEST_NAME
+
+
+ibaby_GUEST_SEX
+#her#female
+#him#male
+
+
+ibaby_GUEST_TODO
+#say goodbye#leave
+#say hello#come
+
+// isA=ibaby_MAP_LOCATION
+//ibaby_MAP_LOC_DEST
+
+// isA=ibaby_MAP_LOCATION
+//ibaby_MAP_LOC_ORIGIN
+
+
+ibaby_MAP_LOCATION
+
+
+ibaby_NEWS_PROVIDER
+
+// hasA=nuance_DOUBLE,hasA=nuance_ORDINAL_NUMBER,hasA=nuance_NUMBER,hasA=nuance_CARDINAL_NUMBER
+//ibaby_NUMBER
+
+
+ibaby_NUMBER_OPERATE
+#divided by#div
+#multiply#multiply
+#plus#plus
+#sub#sub
+
+ibaby_REGUARDS_TYPE
+#good morning # good_morning
+#good night # good_evening
+#good evening # good_evening
+#good afternoon # good_afternoon
+
+ibaby_REMIND_EVENTS
+
+ibaby_SPORT_CATEGORY
+# swim
+# Yoga
+
+ibaby_TIME_POINT
+# every working day # every_working_day
+# every day # every_day
+# every evening # every_evening
+# every weekend # every_weekend
+# one week before # one_week_befor
+
+ibaby_MUSIC_ALBUM
+ibaby_MUSIC_ARTIST
+
+ibaby_MUSIC_QUERY
+ibaby_MUSIC_SONGTITLE
+
+// hasA=ibaby_MUSIC_GENRE
+//ibaby_MUSIC_PLAYLIST
+
+ibaby_MUSIC_PROVIDER
+#grooveshark#grooveshark
+#i heart radio#iheartradio
+#iheart radio#iheartradio
+#iheartradio#iheartradio
+#internet radio#internetradio
+#internetradio#internetradio
+#pandora#pandora
+#slacker#slacker
+#spotify#spotify
+#tune in#tunein
+#tunein#tunein
+// device storage type
+#sd card#sd
+
+ibaby_MUSIC_WHICH_THIS_ALL
+#all#all	
+#this#this
+
+ibaby_MUSIC_SHUFFLEFLAG
+#a random order#yes
+#after shuffling#yes
+#don't shuffle#no
+#in a random order#yes
+#in any order#yes
+#in order#no
+#in random order#yes
+#in shuffle mode#yes
+#no shuffle#no
+#on shuffle#yes
+#on shuffle mode#yes
+#out of order#yes
+#random#yes
+#random order#yes
+#random song#yes
+#random track#yes
+#randomize#yes
+#randomly#yes
+#shuffle#yes
+#shuffle play#yes
+#shuffle-play#yes
+#shuffled#yes
+#shuffling#yes
+#with shuffle on#yes
+
+ibaby_MUSIC_GENRE
+#2 tone#2 tone
+#2-step#2-step
+#4-beat#4-beat
+#4x4#4x4
+#80s#80s
+#acid blues#acid blues
+#acid breaks#acid breaks
+#acid house#acid house
+#acid jazz#acid jazz
+#acid rock#acid rock
+#acid techno#acid techno
+#acid trance#acid trance
+#acousmatic music#acousmatic music
+#african blues#african blues
+#afrobeat#afrobeat
+#aggrotech#aggrotech
+#albanian hip hop#albanian hip hop
+#algerian hip hop#algerian hip hop
+#alternative country#alternative country
+#alternative dance#alternative dance
+#alternative hip hop#alternative hip hop
+#alternative rock#alternative rock
+#ambient#ambient
+#ambient house#ambient house
+#ambient techno#ambient techno
+#american folk revival#american folk revival
+#americana#americana
+#anarcho punk#anarcho punk
+#anti-folk#anti-folk
+#apala#apala
+#appalachian bluegrass#appalachian bluegrass
+#arab pop#arab pop
+#arabic hip hop#arabic hip hop
+#asian american jazz#asian american jazz
+#asian hip hop#asian hip hop
+#atlanta hip hop#atlanta hip hop
+#australian country music#australian country music
+#australian hip hop#australian hip hop
+#austrian hip hop#austrian hip hop
+#austropop#austropop
+#avant-garde#avant-garde
+#avant-garde hip hop#avant-garde hip hop
+#avant-garde jazz#avant-garde jazz
+#axé#axé
+#bachata#bachata
+#background music#background music
+#baithak gana#baithak gana
+#bakersfield sound#bakersfield sound
+#balearic beat#balearic beat
+#balkan pop#balkan pop
+#baltimore club#baltimore club
+#baroque#baroque
+#baroque pop#baroque pop
+#bassline#bassline
+#beautiful music#beautiful music
+#bebop#bebop
+#belgian hip hop#belgian hip hop
+#benga#benga
+#berlin school#berlin school
+#big beat#big beat
+#bikutsi#bikutsi
+#bitpop#bitpop
+#black metal#black metal
+#bluegrass#bluegrass
+#blues#blues
+#blues country#blues country
+#blues shouter#blues shouter
+#blues-rock#blues-rock
+#bongo flava#bongo flava
+#boogie#boogie
+#boogie-woogie#boogie-woogie
+#bosnian hip hop#bosnian hip hop
+#bossa nova#bossa nova
+#bounce music#bounce music
+#bouncy house#bouncy house
+#bouncy techno#bouncy techno
+#brazilian hip hop#brazilian hip hop
+#breakbeat#breakbeat
+#breakbeat hardcore#breakbeat hardcore
+#breakcore#breakcore
+#breakstep#breakstep
+#brick city club#brick city club
+#british blues#british blues
+#british dance band#british dance band
+#british folk revival#british folk revival
+#british hip hop#british hip hop
+#britpop#britpop
+#broken beat#broken beat
+#brutal death metal#brutal death metal
+#bubblegum dance#bubblegum dance
+#bubblegum pop#bubblegum pop
+#bulgarian hip hop#bulgarian hip hop
+#burmese hip hop#burmese hip hop
+#cajun, cajun fiddle tunes#cajun, cajun fiddle tunes
+#calypso#calypso
+#canadian blues#canadian blues
+#canadian hip hop#canadian hip hop
+#cape jazz#cape jazz
+#chamber jazz#chamber jazz
+#chicago blues#chicago blues
+#chicago hip hop#chicago hip hop
+#chicago house#chicago house
+#chicano rap#chicano rap
+#chill out#chill out
+#chillwave#chillwave
+#chimurenga#chimurenga
+#chinese hip hop#chinese hip hop
+#chinese pop#chinese pop
+#chinese rock#chinese rock
+#chiptune#chiptune
+#chopped and screwed#chopped and screwed
+#christian country music#christian country music
+#christian hip hop#christian hip hop
+#christian metal#christian metal
+#christmas carol#christmas carol
+#chutney#chutney
+#chutney soca#chutney soca
+#classic country#classic country
+#classic female blues#classic female blues
+#classic trance#classic trance
+#classical#classical
+#close harmony#close harmony
+#coldwave#coldwave
+#comedy music#comedy music
+#comedy rock#comedy rock
+#computer music#computer music
+#conscious hip hop#conscious hip hop
+#contemporary christian#contemporary christian
+#contemporary folk#contemporary folk
+#contemporary r&b#contemporary r&b
+#continental jazz#continental jazz
+#cool jazz#cool jazz
+#cosmic american music#cosmic american music
+#cosmic disco#cosmic disco
+#cosmopolitan country#cosmopolitan country
+#country#country
+#country blues#country blues
+#country pop#country pop
+#country-rap#country-rap
+#countrypolitan#countrypolitan
+#cowboy music#cowboy music
+#cowpunk#cowpunk
+#crossover jazz#crossover jazz
+#crossover thrash metal#crossover thrash metal
+#crunk#crunk
+#crunkcore#crunkcore
+#crust punk#crust punk
+#cuban hip hop#cuban hip hop
+#cubop#cubop
+#cumbia#cumbia
+#cumbia rap#cumbia rap
+#cybergrind#cybergrind
+#czech hip hop#czech hip hop
+#dance#dance
+#dance-pop#dance-pop
+#dance-punk#dance-punk
+#dance-rock#dance-rock
+#dancehall#dancehall
+#dansband music#dansband music
+#dark ambient#dark ambient
+#dark cabaret#dark cabaret
+#dark electro#dark electro
+#dark psytrance#dark psytrance
+#dark wave#dark wave
+#darkcore#darkcore
+#darkside jungle#darkside jungle
+#darkstep#darkstep
+#death industrial#death industrial
+#death metal#death metal
+#deathcore#deathcore
+#deathcountry#deathcountry
+#deathrock#deathrock
+#deep funk#deep funk
+#deep house#deep house
+#delta blues#delta blues
+#desert rock#desert rock
+#detroit blues#detroit blues
+#detroit hip hop#detroit hip hop
+#detroit techno#detroit techno
+#digital hardcore#digital hardcore
+#disco#disco
+#disco house#disco house
+#disco polo#disco polo
+#diva house#diva house
+#dixieland#dixieland
+#djent#djent
+#dominican hip hop#dominican hip hop
+#doo wop#doo wop
+#doom metal#doom metal
+#doomcore#doomcore
+#downtempo#downtempo
+#drag#drag
+#dream house#dream house
+#dream pop#dream pop
+#dream trance#dream trance
+#drone metal#drone metal
+#drone music#drone music
+#drum and bass#drum and bass
+#drumfunk#drumfunk
+#drumstep#drumstep
+#dub#dub
+#dub music#dub music
+#dubstep#dubstep
+#dubtronica#dubtronica
+#dutch hip hop#dutch hip hop
+#dutch house#dutch house
+#east coast hip hop#east coast hip hop
+#easy listening#easy listening
+#egyptian hip hop#egyptian hip hop
+#electric blues#electric blues
+#electro#electro
+#electro backbeat#electro backbeat
+#electro hop#electro hop
+#electro house#electro house
+#electro music#electro music
+#electro-grime#electro-grime
+#electro-industrial#electro-industrial
+#electroacoustic#electroacoustic
+#electroacoustic improvisation#electroacoustic improvisation
+#electroclash#electroclash
+#electronic#electronic
+#electronic art music#electronic art music
+#electronic body music#electronic body music
+#electronic dance music#electronic dance music
+#electronic rock#electronic rock
+#electronica#electronica
+#electropop#electropop
+#electropunk#electropunk
+#elevator music#elevator music
+#emo#emo
+#ethereal wave#ethereal wave
+#ethnic electronica#ethnic electronica
+#ethno jazz#ethno jazz
+#euro disco#euro disco
+#euro-trance#euro-trance
+#eurobeat#eurobeat
+#eurodance#eurodance
+#european free jazz#european free jazz
+#european hip hop#european hip hop
+#europop#europop
+#eurotrance#eurotrance
+#experimental music#experimental music
+#field recording#field recording
+#filipino hip hop#filipino hip hop
+#filk music#filk music
+#finnish hip hop#finnish hip hop
+#florida breaks#florida breaks
+#folk#folk
+#folk metal#folk metal
+#folk rock#folk rock
+#folktronica#folktronica
+#franco-country#franco-country
+#freak folk#freak folk
+#free funk#free funk
+#free improvisation#free improvisation
+#free jazz#free jazz
+#free tekno#free tekno
+#freestyle house#freestyle house
+#freestyle music#freestyle music
+#freestyle rap#freestyle rap
+#french hip hop#french hip hop
+#french house#french house
+#french pop#french pop
+#fuji music#fuji music
+#full on#full on
+#funk#funk
+#funk metal#funk metal
+#funky#funky
+#funky house#funky house
+#furniture music#furniture music
+#futurepop#futurepop
+#g-funk#g-funk
+#gabber#gabber
+#gambian hip hop#gambian hip hop
+#game boy music#game boy music
+#gangsta rap#gangsta rap
+#garage rock#garage rock
+#genge#genge
+#german hip hop#german hip hop
+#ghetto house#ghetto house
+#ghetto house - from chicago, illinois#ghetto house - from chicago, illinois
+#ghettotech#ghettotech
+#glam metal#glam metal
+#glam rock#glam rock
+#glitch#glitch
+#go-go#go-go
+#goa trance#goa trance
+#golden age hip hop#golden age hip hop
+#gospel blues#gospel blues
+#gothic americana#gothic americana
+#gothic metal#gothic metal
+#gothic rock#gothic rock
+#greek hip hop#greek hip hop
+#grime#grime
+#grind#grind
+#grindcore#grindcore
+#groove metal#groove metal
+#grunge#grunge
+#gulf and western#gulf and western
+#gypsy jazz#gypsy jazz
+#haitian hip hop#haitian hip hop
+#happy hardcore#happy hardcore
+#hard bop#hard bop
+#hard dance#hard dance
+#hard nrg#hard nrg
+#hard rock#hard rock
+#hard trance#hard trance
+#hardbag#hardbag
+#hardcore#hardcore
+#hardcore breaks#hardcore breaks
+#hardcore hip hop#hardcore hip hop
+#hardcore punk#hardcore punk
+#hardstep#hardstep
+#hardstyle#hardstyle
+#hardtechno#hardtechno
+#heavy metal#heavy metal
+#heavy metal bluegrass#heavy metal bluegrass
+#hellbilly music#hellbilly music
+#hi-nrg#hi-nrg
+#highlife#highlife
+#hill country blues#hill country blues
+#hip hop#hip hop
+#hip hop soul#hip hop soul
+#hip house#hip house
+#hip pop#hip pop
+#hiplife#hiplife
+#hokum#hokum
+#hokum blues#hokum blues
+#hong kong and cantonese pop#hong kong and cantonese pop
+#hong kong english pop#hong kong english pop
+#hong kong hip hop#hong kong hip hop
+#honky tonk#honky tonk
+#horrorcore#horrorcore
+#house#house
+#house music#house music
+#houston hip hop#houston hip hop
+#hungarian hip hop#hungarian hip hop
+#hyphy#hyphy
+#icelandic hip hop#icelandic hip hop
+#idm#idm
+#illbient#illbient
+#indian pop#indian pop
+#indie#indie
+#indie folk#indie folk
+#indie pop#indie pop
+#indie rock#indie rock
+#indietronica#indietronica
+#indonesian hip hop#indonesian hip hop
+#indonesian pop#indonesian pop
+#industrial#industrial
+#industrial folk#industrial folk
+#industrial hip hop#industrial hip hop
+#industrial metal#industrial metal
+#industrial rock#industrial rock
+#instrumental country#instrumental country
+#instrumental hip hop#instrumental hip hop
+#intelligent drum and bass#intelligent drum and bass
+#iranian hip hop#iranian hip hop
+#iranian pop#iranian pop
+#irish hip hop#irish hip hop
+#isicathamiya#isicathamiya
+#isolationism#isolationism
+#israeli hip hop#israeli hip hop
+#italian hip hop#italian hip hop
+#italo dance#italo dance
+#italo disco#italo disco
+#italo house#italo house
+#ivorian hip hop#ivorian hip hop
+#j-pop#j-pop
+#j-rock#j-rock
+#jangle pop#jangle pop
+#japanese hip hop#japanese hip hop
+#japanese pop#japanese pop
+#japanoise#japanoise
+#jazz#jazz
+#jazz blues#jazz blues
+#jazz fusion#jazz fusion
+#jazz rap#jazz rap
+#jazz rock#jazz rock
+#jazz-funk#jazz-funk
+#jazz-rock#jazz-rock
+#jerkin'#jerkin'
+#jit#jit
+#jujú#jujú
+#jump blues#jump blues
+#jump-up#jump-up
+#jumpstyle#jumpstyle
+#kansas city blues#kansas city blues
+#kansas city jazz#kansas city jazz
+#kapuka aka boomba#kapuka aka boomba
+#kenyan hip hop#kenyan hip hop
+#kizomba#kizomba
+#kompa#kompa
+#korean hip hop#korean hip hop
+#korean pop#korean pop
+#kuduro#kuduro
+#kwaito#kwaito
+#kwela#kwela
+#laptronica#laptronica
+#latin american#latin american
+#latin house#latin house
+#latin jazz#latin jazz
+#latin pop#latin pop
+#laïkó#laïkó
+#lebanese hip hop#lebanese hip hop
+#levenslied#levenslied
+#liquid funk#liquid funk
+#live coding#live coding
+#live electronics#live electronics
+#livetronica#livetronica
+#lo-fi#lo-fi
+#louisiana blues#louisiana blues
+#louisiana swamp pop#louisiana swamp pop
+#lounge music#lounge music
+#lovers rock#lovers rock
+#low bap#low bap
+#lowercase#lowercase
+#lubbock sound#lubbock sound
+#lyrical hip hop#lyrical hip hop
+#m-base#m-base
+#macedonian hip hop#macedonian hip hop
+#mafioso rap#mafioso rap
+#mainstream jazz#mainstream jazz
+#makina#makina
+#makossa#makossa
+#malaysian hip hop#malaysian hip hop
+#maloya#maloya
+#mambo#mambo
+#mandarin pop#mandarin pop
+#marrabenta#marrabenta
+#math rock#math rock
+#mathcore#mathcore
+#mbalax#mbalax
+#mbaqanga#mbaqanga
+#mbube#mbube
+#mellow#mellow
+#melodic death metal#melodic death metal
+#melodic metalcore#melodic metalcore
+#memphis blues#memphis blues
+#merengue#merengue
+#merenrap#merenrap
+#metalcore#metalcore
+#mexican hip hop#mexican hip hop
+#mexican pop#mexican pop
+#miami bass#miami bass
+#microhouse#microhouse
+#middle eastern hip hop#middle eastern hip hop
+#middle of the road#middle of the road
+#midwest hip hop#midwest hip hop
+#minimal#minimal
+#minimal house#minimal house
+#minimalist music#minimalist music
+#modal jazz#modal jazz
+#modern folk#modern folk
+#moombahton#moombahton
+#morna#morna
+#moroccan hip hop#moroccan hip hop
+#motorpop#motorpop
+#motswako#motswako
+#museve aka sungura#museve aka sungura
+#music#music
+#musique concrète#musique concrète
+#música popular brasileira#música popular brasileira
+#nashville sound#nashville sound
+#native american hip hop#native american hip hop
+#nederpop#nederpop
+#neo soul#neo soul
+#neo-bop jazz#neo-bop jazz
+#neo-swing#neo-swing
+#neo-trance#neo-trance
+#neofolk#neofolk
+#neotraditional country#neotraditional country
+#nepalese hip hop#nepalese hip hop
+#nerdcore hip hop#nerdcore hip hop
+#neue deutsche härte#neue deutsche härte
+#neurofunk#neurofunk
+#new age music#new age music
+#new beat#new beat
+#new country#new country
+#new jack swing#new jack swing
+#new jersey hip hop#new jersey hip hop
+#new prog#new prog
+#new rave#new rave
+#new romantic#new romantic
+#new school hip hop#new school hip hop
+#new wave#new wave
+#new zealand hip hop#new zealand hip hop
+#nigerian hip hop#nigerian hip hop
+#nintendocore#nintendocore
+#noise#noise
+#noise pop#noise pop
+#nortec#nortec
+#northern soul#northern soul
+#northwest hip hop#northwest hip hop
+#novelty ragtime#novelty ragtime
+#nu jazz#nu jazz
+#nu metal#nu metal
+#nu skool breaks#nu skool breaks
+#nu-disco#nu-disco
+#nu-grass#nu-grass
+#old school hip hop#old school hip hop
+#old-time bluegrass#old-time bluegrass
+#oldschool jungle#oldschool jungle
+#operatic pop#operatic pop
+#orchestral jazz#orchestral jazz
+#orchestral uplifting#orchestral uplifting
+#outlaw country#outlaw country
+#p-funk#p-funk
+#paisley underground#paisley underground
+#pakistani hip hop#pakistani hip hop
+#palestinian hip hop#palestinian hip hop
+#palm-wine#palm-wine
+#parody music#parody music
+#party#party
+#piano blues#piano blues
+#piedmont blues#piedmont blues
+#pinoy pop#pinoy pop
+#polish hip hop#polish hip hop
+#political hip hop#political hip hop
+#pop#pop
+#pop country#pop country
+#pop punk#pop punk
+#pop rap#pop rap
+#pop rock#pop rock
+#pop-rap#pop-rap
+#portuguese hip hop#portuguese hip hop
+#post disco#post disco
+#post-bop#post-bop
+#post-britpop#post-britpop
+#post-disco#post-disco
+#post-grunge#post-grunge
+#post-hardcore#post-hardcore
+#post-punk#post-punk
+#post-rock#post-rock
+#power electronics#power electronics
+#power metal#power metal
+#power noise#power noise
+#power pop#power pop
+#progressive#progressive
+#progressive bluegrass#progressive bluegrass
+#progressive breaks#progressive breaks
+#progressive country#progressive country
+#progressive death metal#progressive death metal
+#progressive drum & bass#progressive drum & bass
+#progressive folk#progressive folk
+#progressive house#progressive house
+#progressive metal#progressive metal
+#progressive rock#progressive rock
+#progressive techno#progressive techno
+#psybient#psybient
+#psybreaks#psybreaks
+#psychedelic folk#psychedelic folk
+#psychedelic pop#psychedelic pop
+#psychedelic rock#psychedelic rock
+#psychedelic trance#psychedelic trance
+#psychobilly#psychobilly
+#psydeco#psydeco
+#psyprog#psyprog
+#punk blues#punk blues
+#punk jazz#punk jazz
+#punk rock#punk rock
+#punkabilly#punkabilly
+#ragga#ragga
+#ragga-jungle#ragga-jungle
+#raggacore#raggacore
+#ragtime#ragtime
+#rap#rap
+#rap country#rap country
+#rap metal#rap metal
+#rap opera#rap opera
+#rap rock#rap rock
+#rapcore#rapcore
+#rave breaks#rave breaks
+#rave music#rave music
+#raï#raï
+#reactionary bluegrass#reactionary bluegrass
+#red dirt#red dirt
+#reggae#reggae
+#reggae español#reggae español
+#reggaefusion#reggaefusion
+#reggaeton#reggaeton
+#rhythm & blues#rhythm & blues
+#rhythm and blues#rhythm and blues
+#rock#rock
+#rock 'n roll#rock 'n roll
+#rock and roll#rock and roll
+#rock country#rock country
+#rock en español#rock en español
+#rock'nroll#rock'nroll
+#rockabilly#rockabilly
+#rocksteady#rocksteady
+#romanian hip hop#romanian hip hop
+#romantic#romantic
+#rotterdam techno#rotterdam techno
+#russian hip hop#russian hip hop
+#russian pop#russian pop
+#sakara#sakara
+#salsa#salsa
+#salvadoran hip hop#salvadoran hip hop
+#samba#samba
+#sambass#sambass
+#schlager#schlager
+#schranz#schranz
+#screamo#screamo
+#sega#sega
+#semba#semba
+#senegalese hip hop#senegalese hip hop
+#serbian hip hop#serbian hip hop
+#sertanejo#sertanejo
+#shibuya-kei#shibuya-kei
+#shoegazer#shoegazer
+#ska#ska
+#ska jazz#ska jazz
+#skweee#skweee
+#slovenian hip hop#slovenian hip hop
+#slowcore#slowcore
+#sludge metal#sludge metal
+#smooth jazz#smooth jazz
+#snap music#snap music
+#soca#soca
+#soft rock#soft rock
+#son#son
+#songo-salsa#songo-salsa
+#sophisti-pop#sophisti-pop
+#soukous aka congo, lingala or african rumba#soukous aka congo, lingala or african rumba
+#soul#soul
+#soul blues#soul blues
+#soul country#soul country
+#soul jazz#soul jazz
+#sound art#sound art
+#soundscape composition#soundscape composition
+#south african hip hop#south african hip hop
+#southern hip hop#southern hip hop
+#southern rock#southern rock
+#space age pop#space age pop
+#space disco#space disco
+#space house#space house
+#space rock#space rock
+#spanish hip hop#spanish hip hop
+#spanish reggae#spanish reggae
+#speed garage#speed garage
+#speed metal#speed metal
+#speedcore#speedcore
+#st. louis blues#st. louis blues
+#st. louis hip hop#st. louis hip hop
+#stoner rock#stoner rock
+#straight-ahead jazz#straight-ahead jazz
+#stride jazz#stride jazz
+#sunshine pop#sunshine pop
+#suomisaundi#suomisaundi
+#surf pop#surf pop
+#surf rock#surf rock
+#swamp blues#swamp blues
+#swedish hip hop#swedish hip hop
+#swing#swing
+#swing house#swing house
+#swiss hip hop#swiss hip hop
+#symphonic metal#symphonic metal
+#symphonic techno#symphonic techno
+#synthcore#synthcore
+#synthpop#synthpop
+#synthpunk#synthpunk
+#taarab#taarab
+#taiwanese pop#taiwanese pop
+#tanzanian hip hop#tanzanian hip hop
+#tape music#tape music
+#tech house#tech house
+#tech trance#tech trance
+#technical death metal#technical death metal
+#techno#techno
+#techno-country#techno-country
+#techno-dnb#techno-dnb
+#techno-folk#techno-folk
+#techstep#techstep
+#tecno brega#tecno brega
+#teen pop#teen pop
+#tejano#tejano
+#terrorcore#terrorcore
+#texas blues#texas blues
+#texas country#texas country
+#thai pop#thai pop
+#third stream#third stream
+#thrash metal#thrash metal
+#thrashcore#thrashcore
+#togolese hip hop#togolese hip hop
+#toytown techno#toytown techno
+#trad jazz#trad jazz
+#traditional country music#traditional country music
+#traditional pop music#traditional pop music
+#trance#trance
+#trancestep#trancestep
+#tribal house#tribal house
+#trip hop#trip hop
+#trip rock#trip rock
+#tropicalismo#tropicalismo
+#truck-driving country#truck-driving country
+#turkish hip hop#turkish hip hop
+#turkish pop#turkish pop
+#turntablism#turntablism
+#twin cities hip hop#twin cities hip hop
+#uk garage#uk garage
+#uk hard house#uk hard house
+#uk hardcore#uk hardcore
+#ukrainian hip hop#ukrainian hip hop
+#unblack metal#unblack metal
+#underground hip hop#underground hip hop
+#uplifting trance#uplifting trance
+#urban jazz#urban jazz
+#urban pasifika#urban pasifika
+#us garage#us garage
+#video game music#video game music
+#vispop#vispop
+#vocal house#vocal house
+#vocal jazz#vocal jazz
+#vocal trance#vocal trance
+#weld#weld
+#west coast blues#west coast blues
+#west coast gypsy jazz#west coast gypsy jazz
+#west coast hip hop#west coast hip hop
+#west coast jazz#west coast jazz
+#western music#western music
+#western swing#western swing
+#witch house#witch house
+#wonky pop#wonky pop
+#world#world
+#world fusion#world fusion
+#worldbeat#worldbeat
+#yorkshire bleeps and bass#yorkshire bleeps and bass
+#zimbabwean hip hop#zimbabwean hip hop
+#zouk#zouk

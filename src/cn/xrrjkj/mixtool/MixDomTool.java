@@ -54,11 +54,13 @@ public class MixDomTool {
     public static final String NODE_RELATION = "relation";
     public static final String NODE_FREE_TEXT = "freetext";
     public static final String NODE_TYPE = "type";
+    public static final String NODE_DYNAMIC = "dynamic";
 
     public static final String TEXT_NUANCE_VERSION = "2.0";
     public static final String TEXT_XMLNS_NUANCE = "https://developer.nuance.com/mix/nlu/trsx";
     public static final String TEXT_XML_LANG = "en-us";
     public static final String TEXT_BASE = "http://developer.nuance.com/mix/nlu/trsx/ontology-1.0";
+    public static final String TEXT_TRUE = "true";
 
     public static final List<String> NUANCE_CONCEPTS = new ArrayList<String >(
             Arrays.asList(new String[]{
@@ -384,6 +386,15 @@ public class MixDomTool {
                 int tmpIndex;
                 for(i = 1;i < contents.length;i ++) {
                     tmpStr = contents[i];
+
+                    if(NODE_FREE_TEXT.equals(tmpStr)) {
+                        concept.setAttribute(NODE_FREE_TEXT,TEXT_TRUE);
+                        continue;
+                    } else if(NODE_DYNAMIC.equals(tmpStr)) {
+                        concept.setAttribute(NODE_DYNAMIC,TEXT_TRUE);
+                        continue;
+                    }
+
                     tmpIndex = tmpStr.indexOf("(");
                     if(tmpIndex > 0) {
                         tmpName = tmpStr.substring(0,tmpIndex);
@@ -393,8 +404,6 @@ public class MixDomTool {
                             settingNodes.add(tmpValue);
                         } else if(tmpName.equals(NODE_RELATION)) {
                             relationNodes.add(tmpValue);
-                        } else if(tmpName.equals(NODE_FREE_TEXT)) {
-                            concept.setAttribute(NODE_FREE_TEXT,tmpValue);
                         }
                     }
                 }

@@ -1,0 +1,326 @@
+// ## annotation
+// ###  conceptref
+cmd_camera
+# 1 #take a picture
+# 1 #take a selfie 
+# 1 #take a group picture
+
+cmd_guest
+# 1 # Lily is leaving , <## ###="ibaby_GUEST_TODO"> say goodbye </##> to <## ###="ibaby_GUEST_NAME"> Lily </##> . 
+# 1 # this is my friend <## ###="ibaby_GUEST_NAME"> Lily </##> . <## ###="ibaby_GUEST_TODO"> Say hello </##> to <## ###="ibaby_GUEST_SEX"> her </##> 
+
+cmd_reguards
+# 1 #<## ###="ibaby_REGUARDS_TYPE">good morning</##> 
+# 1 #<## ###="ibaby_REGUARDS_TYPE">good evening</##> 
+# 1 #<## ###="ibaby_REGUARDS_TYPE">good afternoon</##> 
+# 1 #<## ###="ibaby_REGUARDS_TYPE">good night</##>
+
+cmd_remember_name
+#1 #my name is <## ###="ibaby_GET_NAME">John</##>
+#1 #my name is <## ###="ibaby_GET_NAME">Tom</##>
+
+cmd_self_introduction
+# 1 #Who are you? 
+# 1 #What can you do? 
+# 1 #Where are you from?
+
+cmd_welcome_back
+# 1 #i am back
+
+device_control
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> turn on </##> <## ###="ibaby_DEVICE_TYPE"> air-condition </##> 
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> turn off </##> <## ###="ibaby_DEVICE_TYPE"> humidity </##> 
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> turn on </##> the <## ###="ibaby_DEVICE_TYPE"> heater </##> 
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> close </##> <## ###="ibaby_DEVICE_TYPE"> air condition </##> 
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> open </##> <## ###="ibaby_DEVICE_TYPE"> air condition </##> 
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> turn off </##> <## ###="ibaby_DEVICE_TYPE"> air condition </##> 
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> turn on </##> <## ###="ibaby_DEVICE_TYPE"> air condition </##>
+
+device_query
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> What is </##> the <## ###="ibaby_DEVICE_TYPE_QUERY_MUCH"> <## ###="ibaby_DEVICE_TYPE_QUERY"> temperature </##> and <## ###="ibaby_DEVICE_TYPE_QUERY"> humidity </##> </##> of the room? 
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> What is </##> the <## ###="ibaby_DEVICE_TYPE_QUERY_MUCH"> <## ###="ibaby_DEVICE_TYPE_QUERY"> temperature </##> </##> of the room? 
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> What is </##> the <## ###="ibaby_DEVICE_TYPE_QUERY_MUCH"> <## ###="ibaby_DEVICE_TYPE_QUERY"> humidity </##> </##> of the room? 
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> What is </##> the <## ###="ibaby_DEVICE_TYPE_QUERY_MUCH"> <## ###="ibaby_DEVICE_TYPE_QUERY"> air quality </##> </##> of the room?
+# 1 #<## ###="ibaby_DEVICE_OPERATE"> How much </##> is the <## ###="ibaby_DEVICE_TYPE_QUERY_MUCH"> <## ###="ibaby_DEVICE_TYPE_QUERY">temperature</##> </##> of the room?
+
+info_traffic
+# 1 #How about the traffic status between <## ###="ibaby_MAP_LOC_ORIGIN"> <## ###="ibaby_MAP_LOCATION"> boston </##> </##> to <## ###="ibaby_MAP_LOC_DEST"> <## ###="ibaby_MAP_LOCATION"> san francisco </##> </##>
+
+info_weather
+# 1 #what is the weather today
+
+remind_do_sth
+# 1 #please remind <## ###="ibaby_EVENT_WHO_TODO"> Jack </##> <## ###="ibaby_EVENT_TODO"> to buy eggs </##> <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> after work </##> </##> .
+
+remind_exercise
+# 1 #set time for <## ###="ibaby_SPORT_CATEGORY"> swim </##> <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> every day </##> <## ###="nuance_CALENDARX"> 7 </##> am </##> 
+# 1 #please set time for <## ###="ibaby_SPORT_CATEGORY"> Yoga </##> <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> every day </##> <## ###="nuance_CALENDARX"> at </##> 7:30 </##>
+
+remind_important_events
+# 1 #<## ###="ibaby_EVENT_TIME"> <## ###="nuance_CALENDARX"> 30th April </##> </##> is <## ###="ibaby_REMIND_EVENTS"> Wilber ’s vaccination time </##> , remind me <## ###="ibaby_EVENT_TIME_REMIND"> at 18:00 </##> 
+# 1 #<## ###="ibaby_EVENT_TIME"> <## ###="nuance_CALENDARX"> 20th April </##> </##> is <## ###="ibaby_REMIND_EVENTS"> Jack’s birthday </##> , remind me <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> one </##> week before </##> 
+# 1 #<## ###="ibaby_EVENT_TIME"> <## ###="nuance_CALENDARX"> 20th April </##> </##> is <## ###="ibaby_REMIND_EVENTS"> my anniversary </##> , remind me <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> one week before </##> </##> . 
+# 1 #<## ###="ibaby_EVENT_TIME"> <## ###="nuance_CALENDARX"> 20th April </##> </##> is <## ###="ibaby_REMIND_EVENTS"> my grandmother ’s death </##> , remind me <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> one week before </##> </##> 
+# 1 #<## ###="ibaby_EVENT_TIME"> <## ###="nuance_CALENDARX"> 20th April </##> </##> is <## ###="ibaby_REMIND_EVENTS"> Tom’s funeral </##> , remind me <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> one </##> week before </##> . 
+# 1 #<## ###="ibaby_EVENT_TIME"> <## ###="nuance_CALENDARX"> 20th April </##> </##> is <## ###="ibaby_REMIND_EVENTS"> Jonathan’s vaccination time </##> , remind me <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> one week before </##> </##> 
+# 1 #<## ###="ibaby_EVENT_TIME"> <## ###="nuance_CALENDARX"> 20th April </##> </##> is <## ###="ibaby_REMIND_EVENTS"> Jonathan’s vaccination time </##> , remind me <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="nuance_CALENDARX"> at 7 am </##> </##>
+
+remind_morning_call
+# 1 #set wake me up <## ###="ibaby_TIME_POINT"> every working day </##> <## ###="nuance_CALENDARX"> at 7 am </##> 
+# 1 #knock me up <## ###="ibaby_TIME_POINT"> every working day </##> <## ###="nuance_CALENDARX"> at 7 am </##> 
+# 1 #wake me up <## ###="nuance_CALENDARX"> tomorrow 7 am </##> 
+# 1 #wake me up <## ###="nuance_CALENDARX"> at 7 am </##>
+
+remind_read_news
+# 1 #read news 
+# 1 #read news on <## ###="ibaby_NEWS_PROVIDER"> CNN </##> <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> every day </##> <## ###="nuance_CALENDARX"> 7:30 AM </##> </##> 
+# 1 #please read the news on <## ###="ibaby_NEWS_PROVIDER"> CNN </##> <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> evey day </##> <## ###="nuance_CALENDARX"> 7:30 </##> am </##>
+
+remind_read_story
+# 1 #read story 
+# 1 #read story <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> every day </##> <## ###="nuance_CALENDARX"> 7 </##> am </##> 
+# 1 #Please read the story for baby <## ###="ibaby_EVENT_TIME_REMIND"> <## ###="ibaby_TIME_POINT"> every day </##> <## ###="nuance_CALENDARX"> 7 am </##> </##>
+
+remind_sleep
+# 1 #Please remind me to go to bed <## ###="nuance_CALENDARX"> at 10 PM </##> <## ###="ibaby_TIME_POINT"> every day </##> 
+# 1 #remind me to sleep <## ###="nuance_CALENDARX"> at 7 am </##> 
+# 1 #remind me to sleep <## ###="nuance_CALENDARX"> at 7 am </##> <## ###="ibaby_TIME_POINT"> every weekend </##>
+
+tool_calc
+# 1 #What does <## ###="ibaby_CALC_NUM1"> <## ###="nuance_CARDINAL_NUMBER">one</##> </##> <## ###="ibaby_NUMBER_OPERATE"> plus </##> <## ###="ibaby_CALC_NUM2"> <## ###="nuance_CARDINAL_NUMBER">one</##> </##> equal to ?
+# 1 #How much is <## ###="ibaby_CALC_NUM1"> <## ###="nuance_CARDINAL_NUMBER">one</##> </##> <## ###="ibaby_NUMBER_OPERATE"> plus </##> <## ###="ibaby_CALC_NUM2"> <## ###="nuance_CARDINAL_NUMBER">one</##> </##>
+
+volume_set
+# 1 #put the volume to <## ###="nuance_CARDINAL_NUMBER"> one hundred </##>
+# 1 #volume <## ###="ibaby_DEVICE_OPERATE"> down </##> 
+# 1 #volume <## ###="ibaby_DEVICE_OPERATE"> up </##>
+
+music_buy
+	# 1 # buy this song
+	# 1 # please buy the music
+
+music_cancel
+	# 1 #please cancel the music
+	# 1 #cancel the music 
+	# 1 #cancel song 
+	# 1 #cancel songs
+
+music_next
+	# 1 #move to the next song 
+	# 1 #next song please 
+	# 1 #next song
+
+music_pause
+	# 1 # pause the song 
+	# 1 # pause the music 
+	# 1 # stop the music 
+	# 1 # stop the music playing 
+	# 1 # stop the song
+
+music_prev
+	# 1# previous song 
+	# 1# back a song 
+	# 1# back to the last song 
+	# 1# go back to the last song
+
+music_repeat
+	# 1# play <## ###="ibaby_MUSIC_WHICH_THIS_ALL"> this </##> song again 
+	# 1# play <## ###="ibaby_MUSIC_WHICH_THIS_ALL"> this </##> again 
+	# 1# repeat <## ###="ibaby_MUSIC_WHICH_THIS_ALL"> all </##> songs 
+	# 1# repeat <## ###="ibaby_MUSIC_WHICH_THIS_ALL"> this </##> song
+
+music_resume
+	# 1# please resume my music 
+	# 1# please resume playing 
+	# 1# resume play 
+	# 1# resume my music 
+	# 1# resume this song
+
+music_play
+	# 1# play <## ###="ibaby_MUSIC_QUERY">the greatest hits of the 60s</##>
+	
+	# 1# play <## ###="ibaby_MUSIC_QUERY">the boston philharmonic orchestra</##>
+	
+	# 1# play <## ###="ibaby_MUSIC_QUERY">the twenty one pilots</##>
+	
+	# 1# play <## ###="ibaby_MUSIC_QUERY">the tragically hip</##>
+	
+	# 1# play music on <## ###="ibaby_MUSIC_PROVIDER"> grooveshark </##> 
+	
+	# 1# play on <## ###="ibaby_MUSIC_PROVIDER"> spotify </##> 
+	
+	# 1# play on <## ###="ibaby_MUSIC_PROVIDER"> sd card </##> 
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY">dark side of the moon</##> on <## ###="ibaby_MUSIC_PROVIDER"> spotify </##> 
+
+	# 1# play something by <## ###="ibaby_MUSIC_ARTIST"> panic at the disco </##> on <## ###="ibaby_MUSIC_PROVIDER"> internet radio </##> 
+
+	# 1# play music by <## ###="ibaby_MUSIC_ARTIST"> panic at the disco </##> on <## ###="ibaby_MUSIC_PROVIDER"> spotify </##> 
+
+	# 1# play something by <## ###="ibaby_MUSIC_ARTIST"> twenty one pilots </##> on <## ###="ibaby_MUSIC_PROVIDER"> tunein </##> 
+
+	# 1# play something by <## ###="ibaby_MUSIC_ARTIST"> neil young </##> on <## ###="ibaby_MUSIC_PROVIDER"> spotify </##> 
+
+	# 1# play music by <## ###="ibaby_MUSIC_ARTIST"> wilco </##> on <## ###="ibaby_MUSIC_PROVIDER"> spotify </##> 
+
+	# 1# play music by <## ###="ibaby_MUSIC_ARTIST"> twenty one pilots </##> on <## ###="ibaby_MUSIC_PROVIDER"> spotify </##> 
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY">madonna</##> on <## ###="ibaby_MUSIC_PROVIDER"> pandora </##> 
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY">twenty one pilots</##> on <## ###="ibaby_MUSIC_PROVIDER"> spotify </##> 
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY">billy joel</##> on <## ###="ibaby_MUSIC_PROVIDER"> tunein </##> 
+
+	# 1# <## ###="ibaby_MUSIC_SHUFFLEFLAG">shuffle</##> <## ###="ibaby_MUSIC_QUERY">you should be here</##>
+
+	# 1# <## ###="ibaby_MUSIC_SHUFFLEFLAG">shuffle</##> <## ###="ibaby_MUSIC_QUERY">cry baby</##>
+
+	# 1# <## ###="ibaby_MUSIC_SHUFFLEFLAG">shuffle</##> <## ###="ibaby_MUSIC_QUERY">taylor swift</##>
+
+	# 1# <## ###="ibaby_MUSIC_SHUFFLEFLAG">shuffle</##> <## ###="ibaby_MUSIC_QUERY">dark side of the moon</##>
+
+	# 1# play <## ###="ibaby_MUSIC_PLAYLIST"> star trek </##> playlist 
+
+	# 1# play my <## ###="ibaby_MUSIC_PLAYLIST"> detroit bungee jumping </##> playlist 
+
+	# 1# play <## ###="ibaby_MUSIC_ARTIST"> adele </##> song 
+
+	# 1# play <## ###="ibaby_MUSIC_ARTIST"> ellie goulding </##> song 
+
+	# 1# play <## ###="ibaby_MUSIC_ARTIST"> craig david and big narstie </##> music 
+
+	# 1# play <## ###="ibaby_MUSIC_ARTIST"> twenty one pilots </##> music 
+
+	# 1# play <## ###="ibaby_MUSIC_ARTIST"> coldplay </##> music 
+
+	# 1# play <## ###="ibaby_MUSIC_ARTIST"> madonna </##> music 
+
+	# 1# play <## ###="ibaby_MUSIC_ARTIST"> eillie goulding </##> music 
+
+	# 1# play <## ###="ibaby_MUSIC_ARTIST"> neil young </##> music 
+
+	# 1# playlist <## ###="ibaby_MUSIC_PLAYLIST"> <## ###="ibaby_MUSIC_GENRE"> slowcore </##> </##> 
+
+	# 1# playlist <## ###="ibaby_MUSIC_PLAYLIST"> <## ###="ibaby_MUSIC_GENRE"> reggae </##> </##> 
+
+	# 1# play my <## ###="ibaby_MUSIC_PLAYLIST"> jam </##> playlist 
+
+	# 1# play my <## ###="ibaby_MUSIC_PLAYLIST"> unicorn </##> playlist 
+
+	# 1# play my <## ###="ibaby_MUSIC_PLAYLIST"> <## ###="ibaby_MUSIC_GENRE"> rock </##> </##> playlist 
+
+	# 1# play track <## ###="ibaby_MUSIC_SONGTITLE"> i gotta feeling </##> by <## ###="ibaby_MUSIC_ARTIST"> the black eyes peas </##> 
+
+	# 1# play track <## ###="ibaby_MUSIC_SONGTITLE"> fast car </##> 
+
+	# 1# play the track <## ###="ibaby_MUSIC_SONGTITLE"> lush life </##> 
+
+	# 1# play the track <## ###="ibaby_MUSIC_SONGTITLE"> pillowtalk </##> 
+
+	# 1# play the song <## ###="ibaby_MUSIC_SONGTITLE"> army </##> by <## ###="ibaby_MUSIC_ARTIST"> ellie goulding </##> 
+
+	# 1# play the song <## ###="ibaby_MUSIC_SONGTITLE"> me myself and i </##> 
+
+	# 1# play the song <## ###="ibaby_MUSIC_SONGTITLE"> me myself and i </##> by <## ###="ibaby_MUSIC_ARTIST"> g-eazy ft bebe rexha </##> 
+
+	# 1# play song <## ###="ibaby_MUSIC_SONGTITLE"> when we were young </##> 
+
+	# 1# play the song <## ###="ibaby_MUSIC_SONGTITLE"> hymn for the weekend </##> 
+
+	# 1# play the song <## ###="ibaby_MUSIC_SONGTITLE"> never forget you </##> by <## ###="ibaby_MUSIC_ARTIST"> twenty one pilots </##> 
+
+	# 1# play song <## ###="ibaby_MUSIC_SONGTITLE"> what do you mean </##> by <## ###="ibaby_MUSIC_ARTIST"> coldplay </##> 
+
+	# 1# play a song <## ###="ibaby_MUSIC_SONGTITLE"> i took a pill in ibiza </##> by <## ###="ibaby_MUSIC_ARTIST"> mike posner </##> 
+
+	# 1# play the song <## ###="ibaby_MUSIC_SONGTITLE"> love yourself </##> by <## ###="ibaby_MUSIC_ARTIST"> justin bieber </##> 
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY">neil young</##>
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY">wilco</##>
+	
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> dark side of the moon </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> dark side of the moon </##>by <## ###="ibaby_MUSIC_ARTIST"> pink floyd </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> misunderstood </##>by <## ###="ibaby_MUSIC_ARTIST"> wilco </##>
+
+	# 1#please play <## ###="ibaby_MUSIC_QUERY"> misunderstood </##>by <## ###="ibaby_MUSIC_ARTIST"> wilco </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> harvest </##>by <## ###="ibaby_MUSIC_ARTIST"> neil young </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> wish you were here </##>by <## ###="ibaby_MUSIC_ARTIST"> pink floyd </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> hello </##>by <## ###="ibaby_MUSIC_ARTIST"> Adele </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> hello </##>
+	
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> hello </##>by <## ###="ibaby_MUSIC_ARTIST"> Lionel Richie </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> hotline bling </##>by <## ###="ibaby_MUSIC_ARTIST"> drake </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> what do you mean </##>by <## ###="ibaby_MUSIC_ARTIST"> justin bieber </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> the hills </##>by <## ###="ibaby_MUSIC_ARTIST"> the weekend </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> same old love </##>by <## ###="ibaby_MUSIC_ARTIST"> selena gomez </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> like i'm gonna lose you </##>by <## ###="ibaby_MUSIC_ARTIST"> meghan trainor </##>
+
+	# 1#play <## ###="ibaby_MUSIC_QUERY"> can't feel my face </##>
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY"> in the night </##>
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY"> stressed out </##>by <## ###="ibaby_MUSIC_ARTIST"> twenty one pilots </##>
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY"> i know what you did last summer </##>by <## ###="ibaby_MUSIC_ARTIST"> shawn mendes and camila cabello </##>
+	
+	# 1# play <## ###="ibaby_MUSIC_QUERY"> madonna </##>
+
+	# 1# play a song by <## ###="ibaby_MUSIC_ARTIST"> wilco </##>
+
+	# 1# play a song by <## ###="ibaby_MUSIC_ARTIST"> twenty one pilots </##>
+
+	# 1# play a song by <## ###="ibaby_MUSIC_ARTIST"> mariah carey </##>
+
+	# 1# play something by <## ###="ibaby_MUSIC_ARTIST"> shawn mendes and camila cabello </##>
+
+	# 1# play something by <## ###="ibaby_MUSIC_ARTIST"> the weekend </##>
+
+	# 1# play the album <## ###="ibaby_MUSIC_ALBUM"> dark side of the moon </##>
+
+	# 1# play an album <## ###="ibaby_MUSIC_ALBUM"> stairway to heaven </##>
+
+	# 1# play album <## ###="ibaby_MUSIC_ALBUM"> harvest </##>
+
+	# 1# play the album <## ###="ibaby_MUSIC_ALBUM"> tonight 's the night </##>
+
+	# 1# play album <## ###="ibaby_MUSIC_ALBUM"> toys in the attic </##>
+
+	# 1# play album <## ###="ibaby_MUSIC_ALBUM"> wish you were here </##>
+
+	# 1# play the album <## ###="ibaby_MUSIC_ALBUM"> a night at the opera </##>
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY"> can't feel my face </##>now 
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY"> 4th chamber </##>
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY"> David Bowie </##>
+
+	# 1# <## ###="ibaby_MUSIC_SHUFFLEFLAG"> shuffle </##>some music 
+
+	# 1# <## ###="ibaby_MUSIC_SHUFFLEFLAG"> shuffle </##>play my music 
+
+	# 1# <## ###="ibaby_MUSIC_SHUFFLEFLAG"> shuffle </##>play <## ###="ibaby_MUSIC_QUERY"> led zeppelin </##>
+
+	# 1# play tunes by <## ###="ibaby_MUSIC_ARTIST"> radiohead </##><## ###="ibaby_MUSIC_SHUFFLEFLAG"> in order </##>
+
+	# 1# please play my <## ###="ibaby_MUSIC_PLAYLIST"> workout </##>playlist <## ###="ibaby_MUSIC_SHUFFLEFLAG"> on shuffle </##>
+
+	# 1# play my <## ###="ibaby_MUSIC_PLAYLIST"> workout </##>playlist <## ###="ibaby_MUSIC_SHUFFLEFLAG"> shuffled </##>
+
+	# 1# play music by <## ###="ibaby_MUSIC_ARTIST"> madonna </##><## ###="ibaby_MUSIC_SHUFFLEFLAG"> in shuffle mode </##>
+
+	# 1# play <## ###="ibaby_MUSIC_QUERY"> reggae </##>music <## ###="ibaby_MUSIC_SHUFFLEFLAG"> shuffled </##>
+
+	# 1# <## ###="ibaby_MUSIC_SHUFFLEFLAG"> shuffle </##><## ###="ibaby_MUSIC_QUERY"> twenty one pilots</##>
